@@ -41,8 +41,23 @@ h1, h2 {
 .active {
     border-bottom: 1px solid rgb(72, 4, 49);
 }
+#cover-text, #cover-text h2 { color:rgb(72, 4, 49);
+
+}
 #kids-image{
     height: 600px;
     width: 100%;
     background: url('../images/ändrad\ kids-playing.jpg') no-repeat center center;
+}
+#cover-text {
+    font-size: 130%;
+    font-family: Solitreo, sans-serif;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color:rgb(245, 173, 216, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
