@@ -7,4 +7,42 @@
 body{
     font-family: Solitreo, sans-serif;
     font-weight: 300;
+    color:black;
+}
+h1, h2 {
+    font-family: Solitreo, sans-serif;
+    text-transform: uppercase;
+    color:rgb(202, 119, 174);
+}
+#logo {
+    position: relative;
+    left: 500px;
+    right: 500px;
+    font-size: 300%;
+
+}
+#menu {
+    font-size: 110%;
+
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+#menu a {
+    text-decoration: none;
+    color: rgb(72, 4, 49);
+
+}
+#menu a:hover {
+    border-bottom: 1px solid rgb(72, 4, 49);
+}
+.active {
+    border-bottom: 1px solid rgb(72, 4, 49);
+}
+#kids-image{
+    height: 600px;
+    width: 100%;
+    background: url('../images/ändrad\ kids-playing.jpg') no-repeat center center;
 }
